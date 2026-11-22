@@ -1,0 +1,31 @@
+{
+ "format": "jointtrees witness 3",
+ "library": "jointtrees 0.1",
+ "problem": {"name": "Decoding", "q": 2, "rate": 0.463, "weight": "gv/2"},
+ "tree": {
+  "joins": [{}, {}, {"syndrome": {"family": "prices", "tilt": "own", "u": "free"}}],
+  "digits": [0, 1],
+  "nonzero": "alike"
+ },
+ "memory_bound": null,
+ "claimed": {"time": 0.04720627891688721, "memory": 0.034616578623037256},
+ "parameters": {
+  "ell": [0.028819589986521173, 0.03461657862303972],
+  "ell_d": 1.6653328716040294e-16,
+  "omega_1": 0.01666603755407648,
+  "J": {
+   "1": [[0.9700664057571469, 0.013570592888512525], [0.013570592888512525, 0.0027924084658279735]],
+   "2": [[0.9570296989875083, 0.015829115235466547], [0.015829115235466547, 0.011312070541558503]]
+  },
+  "syndrome_filter": {"u": 0.4999983116139464, "z": {"0": 0.9935395753468718}, "z_y": {"0": 0.9935395753468726}}
+ },
+ "derived": {
+  "kappa": 0.5264361686095611,
+  "p": {
+   "0": {"0": 0.9836369986456596, "1": 0.0163630013543405},
+   "1": {"0": 0.972858814222975, "1": 0.027141185777025054},
+   "2": {"0": 0.9683417695290669, "1": 0.031658230470933094}
+  }
+ },
+ "notes": {"note": "Decoding over F_2 at rate 0.463, an error of half the Gilbert-Varshamov weight. Tree: depth 2, digits 0, 1. Joins: 0 and 1 exact, 2 mixed with the syndrome filter PriceFilter (own tilt, free center size). No memory bound. The rate is the worst case on the grid 0.449..0.473, step 0.002."}
+}

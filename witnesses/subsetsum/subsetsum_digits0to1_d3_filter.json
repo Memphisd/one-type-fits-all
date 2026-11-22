@@ -1,0 +1,39 @@
+{
+ "format": "jointtrees witness 3",
+ "library": "jointtrees 0.1",
+ "problem": {"name": "SubsetSum", "weight": 0.5},
+ "tree": {
+  "joins": [
+   {},
+   {"filter": {"family": "prices", "tilt": "opposite", "u": "free"}},
+   {"filter": {"family": "prices", "tilt": "opposite", "u": "free"}},
+   {"filter": {"family": "prices", "tilt": "opposite", "u": "free"}}
+  ],
+  "digits": [0, 1]
+ },
+ "memory_bound": null,
+ "claimed": {"time": 0.32693190175205816, "memory": 0.31127812445913294},
+ "parameters": {
+  "ell": [0.12500000000000008, 0.12499999999999988, 0.24999999999999992],
+  "J": {
+   "1": [[0.875, 0.0625], [0.0625, 0.0]],
+   "2": [[0.75, 0.125], [0.125, 0.0]],
+   "3": [[0.5, 0.25], [0.25, 0.0]]
+  },
+  "filter": {
+   "1": {"u": 0.505426683818412, "z": {"1": 40.0}},
+   "2": {"u": 0.5000000000000018, "z": {"1": 2.1331083503526846}},
+   "3": {"u": 0.0011404154145386869, "z": {"1": 2.7921375346445064e-10}}
+  }
+ },
+ "derived": {
+  "ell_d": 0.5000000000000001,
+  "p": {
+   "0": {"0": 0.9375, "1": 0.0625},
+   "1": {"0": 0.875, "1": 0.125},
+   "2": {"0": 0.75, "1": 0.25},
+   "3": {"0": 0.5, "1": 0.5}
+  }
+ },
+ "notes": {"note": "Subset sum. Tree: depth 3, digits 0, 1. Joins: 0 exact, 1 to 3 filtered with PriceFilter (opposite tilt, free center size). No memory bound."}
+}

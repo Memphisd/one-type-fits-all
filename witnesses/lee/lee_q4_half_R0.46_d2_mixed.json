@@ -1,0 +1,30 @@
+{
+ "format": "jointtrees witness 3",
+ "library": "jointtrees 0.1",
+ "problem": {"name": "LeeDecoding", "q": 4, "rate": 0.46, "weight": "gv/2"},
+ "tree": {
+  "joins": [{}, {}, {"syndrome": {"family": "lee-weight", "u": "free"}}],
+  "digits": [0, 1, 2, 3],
+  "joint_types": "maxent",
+  "types": "boltzmann"
+ },
+ "memory_bound": null,
+ "claimed": {"time": 0.09490107592945458, "memory": 0.07004768804520407, "F": 0.04745053796472729},
+ "parameters": {
+  "ell": [0.05992480268812002, 0.07004768804520435],
+  "ell_d": 1.6653345369377333e-16,
+  "lee_weight": {"0": 0.03384256354713514, "1": 0.055755364015602285, "2": 0.06459550069454281},
+  "syndrome_filter": {"u": 0.4999999894988455, "sigma": 1.0924115010801034}
+ },
+ "derived": {
+  "omega_1": 0.0333641127695955,
+  "kappa": 0.5249862453666623,
+  "p": {
+   "0": {"0": 0.9664437662297254, "1": 0.016634951996707104, "2": 0.0002863297768604702, "3": 0.016634951996707104},
+   "1": {"0": 0.9450218011385257, "1": 0.027100516853673075, "2": 0.0007771651541280802, "3": 0.027100516853673075},
+   "2": {"0": 0.9364476439829519, "1": 0.031254605669776746, "2": 0.0010431446774946712, "3": 0.031254605669776746}
+  },
+  "syndrome_filter": {"z": {"1": -1.0924115010801034, "2": -2.184823002160207}}
+ },
+ "notes": {"note": "Decoding in the Lee metric over Z_4 at rate 0.46, an error of half the Gilbert-Varshamov Lee weight. Tree: depth 2, digits 0..3, maximum-entropy joint types, Boltzmann level types. Joins: 0 and 1 exact, 2 mixed with the syndrome filter LeeWeightFilter (free center size). No memory bound."}
+}

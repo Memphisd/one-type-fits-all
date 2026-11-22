@@ -1,0 +1,25 @@
+{
+ "format": "jointtrees witness 3",
+ "library": "jointtrees 0.1",
+ "problem": {"name": "Decoding", "q": 5, "rate": 0.484, "weight": "gv/2"},
+ "tree": {
+  "joins": [{"exact": false, "syndrome": {"family": "prices", "tilt": "own", "u": "free"}}],
+  "digits": [0, 1, 2, 3, 4],
+  "nonzero": "alike"
+ },
+ "memory_bound": null,
+ "claimed": {"time": 0.11158273209741912, "memory": 0.018725239602052596, "F": 0.048056067000141985},
+ "parameters": {
+  "ell": [],
+  "omega_1": 0.0035582096764183177,
+  "syndrome_filter": {"u": 0.02747450391051645, "z": {"0": 2.4567567025135224}, "z_y": {"0": 2.4567567025489483}}
+ },
+ "derived": {
+  "ell_d": 0.0,
+  "kappa": 0.484,
+  "p": {
+   "0": {"0": 0.9926483271148382, "1": 0.0018379182212904534, "2": 0.0018379182212904534, "3": 0.0018379182212904534, "4": 0.0018379182212904534}
+  }
+ },
+ "notes": {"note": "Decoding over F_5 at rate 0.484, an error of half the Gilbert-Varshamov weight. Tree: depth 0, digits 0..4. Joins: 0 nearest-neighbour with the syndrome filter PriceFilter (own tilt, free center size). No memory bound. The rate is the worst case on the grid 0.470..0.502, step 0.002."}
+}

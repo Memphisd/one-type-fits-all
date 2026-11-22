@@ -1,0 +1,33 @@
+{
+ "format": "jointtrees witness 3",
+ "library": "jointtrees 0.1",
+ "problem": {"name": "Decoding", "q": 3, "rate": 0.428, "weight": "gv"},
+ "tree": {
+  "joins": [{}, {}, {}, {"syndrome": {"family": "prices", "tilt": "own", "u": "free"}}],
+  "digits": [0, 1, 2],
+  "nonzero": "alike"
+ },
+ "memory_bound": null,
+ "claimed": {"time": 0.1560168488292769, "memory": 0.13562333050318542, "F": 0.09843567198485101},
+ "parameters": {
+  "ell": [0.06594611913400714, 0.12622745193242846, 0.13562333050319178],
+  "ell_d": 0.06315238242790823,
+  "omega_1": 0.09958302799275241,
+  "J": {
+   "1": {"both zero": 0.9183129386339214, "one zero": 0.019986761575704764, "both nonzero, sum zero": 0.0004350030113304322, "both nonzero, sum nonzero": 0.00043500452029936437},
+   "2": {"both zero": 0.860508515055176, "one zero": 0.02933721480070319, "both nonzero, sum zero": 0.008206365022492754, "both nonzero, sum nonzero": 0.0028649478485129496},
+   "3": {"both zero": 0.8087222943435383, "one zero": 0.03409947537831155, "both nonzero, sum zero": 0.021836640336590347, "both nonzero, sum nonzero": 0.005603261735017431}
+  },
+  "syndrome_filter": {"u": 0.20878262621100369, "z": {"0": 2.5673235858320065}, "z_y": {"0": 2.5673235858319763}}
+ },
+ "derived": {
+  "kappa": 0.6746615354115029,
+  "p": {
+   "0": {"0": 0.958286461785331, "1": 0.020856769107334562, "2": 0.020856769107334562},
+   "1": {"0": 0.9191829446565822, "1": 0.04040852767170889, "2": 0.040408527671708896},
+   "2": {"0": 0.8769212451001615, "1": 0.06153937744991933, "2": 0.06153937744991933},
+   "3": {"0": 0.8523955750167189, "1": 0.07380221249164054, "2": 0.07380221249164054}
+  }
+ },
+ "notes": {"note": "Decoding over F_3 at rate 0.428, an error of the Gilbert-Varshamov weight. Tree: depth 3, digits 0..2. Joins: 0 to 2 exact, 3 mixed with the syndrome filter PriceFilter (own tilt, free center size). No memory bound. The rate is the worst case on the grid 0.420..0.440, step 0.002."}
+}

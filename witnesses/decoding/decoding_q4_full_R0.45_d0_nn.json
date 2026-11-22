@@ -1,0 +1,25 @@
+{
+ "format": "jointtrees witness 3",
+ "library": "jointtrees 0.1",
+ "problem": {"name": "Decoding", "q": 4, "rate": 0.45, "weight": "gv"},
+ "tree": {
+  "joins": [{"exact": false, "syndrome": {"family": "prices", "tilt": "own", "u": "free"}}],
+  "digits": [0, 1, 2, 3],
+  "nonzero": "alike"
+ },
+ "memory_bound": null,
+ "claimed": {"time": 0.21708568157475427, "memory": 0.04513017451941368, "F": 0.10854284078737714},
+ "parameters": {
+  "ell": [],
+  "omega_1": 0.010747689138395203,
+  "syndrome_filter": {"u": 0.07816118642740015, "z": {"0": 2.678180641009309}, "z_y": {"0": 2.6781806410090776}}
+ },
+ "derived": {
+  "ell_d": 0.0,
+  "kappa": 0.45,
+  "p": {
+   "0": {"0": 0.9761162463591218, "1": 0.007961251213626076, "2": 0.007961251213626076, "3": 0.007961251213626076}
+  }
+ },
+ "notes": {"note": "Decoding over F_4 at rate 0.45, an error of the Gilbert-Varshamov weight. Tree: depth 0, digits 0..3. Joins: 0 nearest-neighbour with the syndrome filter PriceFilter (own tilt, free center size). No memory bound. The rate is the worst case on the grid 0.400..0.500, step 0.002."}
+}

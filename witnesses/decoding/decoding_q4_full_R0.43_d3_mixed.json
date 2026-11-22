@@ -1,0 +1,33 @@
+{
+ "format": "jointtrees witness 3",
+ "library": "jointtrees 0.1",
+ "problem": {"name": "Decoding", "q": 4, "rate": 0.43, "weight": "gv"},
+ "tree": {
+  "joins": [{}, {}, {}, {"syndrome": {"family": "prices", "tilt": "own", "u": "free"}}],
+  "digits": [0, 1, 2, 3],
+  "nonzero": "alike"
+ },
+ "memory_bound": null,
+ "claimed": {"time": 0.19715539994144435, "memory": 0.15428317327754906, "F": 0.09857769997072217},
+ "parameters": {
+  "ell": [0.05671251196092044, 0.1093348879915084, 0.15428317327750457],
+  "ell_d": 0.10408889793823828,
+  "omega_1": 0.09726785408561359,
+  "J": {
+   "1": {"both zero": 0.9253587133516666, "one zero": 0.012198985181747408, "both nonzero, sum zero": 0.00016081796747171, "both nonzero, sum nonzero": 0.00016082027590559952},
+   "2": {"both zero": 0.8694337670263691, "one zero": 0.018802466742570932, "both nonzero, sum zero": 0.0035232747073312277, "both nonzero, sum nonzero": 0.0011969347327019282},
+   "3": {"both zero": 0.8124862545070484, "one zero": 0.02250577888043817, "both nonzero, sum zero": 0.012018554864965246, "both nonzero, sum nonzero": 0.0027372346025711517}
+  },
+  "syndrome_filter": {"u": 0.09394044582055944, "z": {"0": 2.8398663723648676}, "z_y": {"0": 2.839866372364837}}
+ },
+ "derived": {
+  "kappa": 0.6422097355840859,
+  "p": {
+   "0": {"0": 0.9619556688969091, "1": 0.012681443701030314, "2": 0.012681443701030314, "3": 0.012681443701030318},
+   "1": {"0": 0.9258411672540818, "1": 0.024719610915306015, "2": 0.024719610915306015, "3": 0.02471961091530602},
+   "2": {"0": 0.8800035911483628, "1": 0.03999880295054572, "2": 0.03999880295054572, "3": 0.039998802950545725},
+   "3": {"0": 0.8485419191019441, "1": 0.05048602696601864, "2": 0.05048602696601864, "3": 0.05048602696601864}
+  }
+ },
+ "notes": {"note": "Decoding over F_4 at rate 0.43, an error of the Gilbert-Varshamov weight. Tree: depth 3, digits 0..3. Joins: 0 to 2 exact, 3 mixed with the syndrome filter PriceFilter (own tilt, free center size). No memory bound. The rate is the worst case on the grid 0.422..0.450, step 0.002."}
+}

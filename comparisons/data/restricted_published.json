@@ -1,0 +1,41 @@
+{
+ "source": "github.com/sebastianbitzer/rest-dec; q = 157, R = 0.5; seed: the seed of numpy of the lowest valid run among 0..29",
+ "cells": [
+  {
+   "z": 2,
+   "omega": 0.2,
+   "levels": 2,
+   "seed": 16
+  },
+  {
+   "z": 2,
+   "omega": 0.4,
+   "levels": 3,
+   "seed": 9
+  },
+  {
+   "z": 2,
+   "omega": 0.6,
+   "levels": 3,
+   "seed": 21
+  },
+  {
+   "z": 2,
+   "omega": 0.8,
+   "levels": 3,
+   "seed": 25
+  },
+  {
+   "z": 4,
+   "omega": 0.4,
+   "levels": 2,
+   "seed": 9
+  },
+  {
+   "z": 4,
+   "omega": 0.6,
+   "levels": 3,
+   "seed": 22
+  }
+ ]
+}

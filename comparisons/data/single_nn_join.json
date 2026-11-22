@@ -1,0 +1,70 @@
+{
+ "note": "Table 4 (Section 7): one nearest-neighbour join over F_q on two lists of 2^(L n') vectors, pairs at distance gamma n'. L as printed in the table. Parameters at the minimum of each column: Hirose's center size u and share h0 of the digit 0 in a center, and the center size u and price z0 of the digit 0 of the filter of [neighbour join].",
+ "rows": [
+  {
+   "q": 2,
+   "L": 0.1,
+   "gamma": 0.05,
+   "hirose": {
+    "u": 0.49999997227334064,
+    "h0": 0.6839806638787163
+   },
+   "proposition": {
+    "u": 0.5000070185425088,
+    "z0": 1.1791210479317191
+   }
+  },
+  {
+   "q": 3,
+   "L": 0.07925,
+   "gamma": 0.1,
+   "hirose": {
+    "u": 0.25950916723577583,
+    "h0": 0.6025459948831788
+   },
+   "proposition": {
+    "u": 0.14030580182893193,
+    "z0": 1.5713315311730238
+   }
+  },
+  {
+   "q": 3,
+   "L": 0.1585,
+   "gamma": 0.4,
+   "hirose": {
+    "u": 0.32284970408213537,
+    "h0": 0.649464964809222
+   },
+   "proposition": {
+    "u": 0.20259491007218608,
+    "z0": 2.9032785721783663
+   }
+  },
+  {
+   "q": 4,
+   "L": 0.2,
+   "gamma": 0.2,
+   "hirose": {
+    "u": 0.7638150409262032,
+    "h0": 0.11700240028423131
+   },
+   "proposition": {
+    "u": 0.14226959439034131,
+    "z0": 2.9906794948123814
+   }
+  },
+  {
+   "q": 8,
+   "L": 0.15,
+   "gamma": 0.1,
+   "hirose": {
+    "u": 0.8882774763950915,
+    "h0": 0.0594296002378031
+   },
+   "proposition": {
+    "u": 0.05613772171407314,
+    "z0": 3.8056527862575638
+   }
+  }
+ ]
+}

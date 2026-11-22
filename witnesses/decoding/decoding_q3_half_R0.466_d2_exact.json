@@ -1,0 +1,26 @@
+{
+ "format": "jointtrees witness 3",
+ "library": "jointtrees 0.1",
+ "problem": {"name": "Decoding", "q": 3, "rate": 0.466, "weight": "gv/2"},
+ "tree": {"joins": [{}, {}, {}], "digits": [0, 1, 2], "nonzero": "alike"},
+ "memory_bound": null,
+ "claimed": {"time": 0.07509519706297421, "memory": 0.04230648336453338, "F": 0.04737979417734236},
+ "parameters": {
+  "ell": [0.01513111106830128, 0.04230648336453532],
+  "ell_d": 0.04211695238541434,
+  "omega_1": 0.01710970403097082,
+  "J": {
+   "1": {"both zero": 0.9755928883546111, "one zero": 0.006010208277017621, "both nonzero, sum zero": 0.00011724965268014841, "both nonzero, sum nonzero": 6.588961597901857e-05},
+   "2": {"both zero": 0.9601402372318597, "one zero": 0.007843575214055862, "both nonzero, sum zero": 0.0037523868914724904, "both nonzero, sum nonzero": 0.0004903440644859083}
+  }
+ },
+ "derived": {
+  "kappa": 0.5288119256909573,
+  "p": {
+   "0": {"0": 0.9876133049086463, "1": 0.006193347545676787, "2": 0.006193347545676788},
+   "1": {"0": 0.9758273876599715, "1": 0.01208630617001426, "2": 0.012086306170014261},
+   "2": {"0": 0.9676450110148047, "1": 0.016177494492597633, "2": 0.016177494492597633}
+  }
+ },
+ "notes": {"note": "Decoding over F_3 at rate 0.466, an error of half the Gilbert-Varshamov weight. Tree: depth 2, digits 0..2. Joins: 0 to 2 exact. No memory bound. The rate is the worst case on the grid 0.450..0.482, step 0.002."}
+}

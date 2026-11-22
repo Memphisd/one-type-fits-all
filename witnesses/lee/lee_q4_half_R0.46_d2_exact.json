@@ -1,0 +1,23 @@
+{
+ "format": "jointtrees witness 3",
+ "library": "jointtrees 0.1",
+ "problem": {"name": "LeeDecoding", "q": 4, "rate": 0.46, "weight": "gv/2"},
+ "tree": {"joins": [{}, {}, {}], "digits": [0, 1, 2, 3], "joint_types": "maxent", "types": "boltzmann"},
+ "memory_bound": null,
+ "claimed": {"time": 0.09904686498301617, "memory": 0.0632307291751063, "F": 0.04952343249150808},
+ "parameters": {
+  "ell": [0.0263791204548999, 0.06323072917510526],
+  "ell_d": 0.0627134883210001,
+  "lee_weight": {"0": 0.020840391296688084, "1": 0.04030323915465431, "2": 0.05464347133803541}
+ },
+ "derived": {
+  "omega_1": 0.028897502308382852,
+  "kappa": 0.5361616689755027,
+  "p": {
+   "0": {"0": 0.9792681891806617, "1": 0.010311615170994274, "2": 0.00010858047734976813, "3": 0.010311615170994274},
+   "1": {"0": 0.960102848616935, "1": 0.019745531805737845, "2": 0.0004060877715893153, "3": 0.019745531805737845},
+   "2": {"0": 0.9461030059019322, "1": 0.026575258429050036, "2": 0.0007464772399676747, "3": 0.026575258429050036}
+  }
+ },
+ "notes": {"note": "Decoding in the Lee metric over Z_4 at rate 0.46, an error of half the Gilbert-Varshamov Lee weight. Tree: depth 2, digits 0..3, maximum-entropy joint types, Boltzmann level types. Joins: 0 to 2 exact. No memory bound."}
+}

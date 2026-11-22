@@ -1,0 +1,338 @@
+{
+ "note": "Table 7, the columns Stern and Hirose. Per cell: the grid of rates (first and last rate, step 0.002), the worst rate, and the parameters there: omega_1, the error weight on the information columns (fraction of n); ell, the exactly matched syndrome coordinates (fraction of n, Stern); u, the center size, and h0, the share of the digit 0 in a center (Hirose).",
+ "cells": [
+  {
+   "column": "Stern",
+   "q": 2,
+   "distance": "half",
+   "grid": [
+    0.45,
+    0.482
+   ],
+   "rate": 0.466,
+   "omega_1": 0.003077256051001697,
+   "ell": 0.013356003210063073
+  },
+  {
+   "column": "Stern",
+   "q": 3,
+   "distance": "half",
+   "grid": [
+    0.458,
+    0.49
+   ],
+   "rate": 0.474,
+   "omega_1": 0.003509888655597857,
+   "ell": 0.010535073020717592
+  },
+  {
+   "column": "Stern",
+   "q": 4,
+   "distance": "half",
+   "grid": [
+    0.464,
+    0.496
+   ],
+   "rate": 0.48,
+   "omega_1": 0.0034770864207944513,
+   "ell": 0.008806965425761471
+  },
+  {
+   "column": "Stern",
+   "q": 5,
+   "distance": "half",
+   "grid": [
+    0.47,
+    0.502
+   ],
+   "rate": 0.484,
+   "omega_1": 0.0033292151029331064,
+   "ell": 0.007614562916317919
+  },
+  {
+   "column": "Stern",
+   "q": 7,
+   "distance": "half",
+   "grid": [
+    0.478,
+    0.51
+   ],
+   "rate": 0.49,
+   "omega_1": 0.002988240097829588,
+   "ell": 0.006056936212622175
+  },
+  {
+   "column": "Stern",
+   "q": 8,
+   "distance": "half",
+   "grid": [
+    0.478,
+    0.51
+   ],
+   "rate": 0.494,
+   "omega_1": 0.0028336262518748783,
+   "ell": 0.005521614535670623
+  },
+  {
+   "column": "Stern",
+   "q": 11,
+   "distance": "half",
+   "grid": [
+    0.484,
+    0.516
+   ],
+   "rate": 0.498,
+   "omega_1": 0.0024371694320039,
+   "ell": 0.004380539363951234
+  },
+  {
+   "column": "Stern",
+   "q": 16,
+   "distance": "half",
+   "grid": [
+    0.49,
+    0.52
+   ],
+   "rate": 0.504,
+   "omega_1": 0.001981670197172083,
+   "ell": 0.0033037683951950693
+  },
+  {
+   "column": "Stern",
+   "q": 27,
+   "distance": "half",
+   "grid": [
+    0.49,
+    0.54
+   ],
+   "rate": 0.512,
+   "omega_1": 0.0014229871796236117,
+   "ell": 0.0021894777431315546
+  },
+  {
+   "column": "Stern",
+   "q": 2,
+   "distance": "full",
+   "grid": [
+    0.4,
+    0.5
+   ],
+   "rate": 0.446,
+   "omega_1": 0.00898944696398278,
+   "ell": 0.03173600477740731
+  },
+  {
+   "column": "Stern",
+   "q": 3,
+   "distance": "full",
+   "grid": [
+    0.42,
+    0.47
+   ],
+   "rate": 0.448,
+   "omega_1": 0.010679220882766806,
+   "ell": 0.02633141115791033
+  },
+  {
+   "column": "Stern",
+   "q": 4,
+   "distance": "full",
+   "grid": [
+    0.4,
+    0.5
+   ],
+   "rate": 0.45,
+   "omega_1": 0.01086610449832863,
+   "ell": 0.02277023597645373
+  },
+  {
+   "column": "Stern",
+   "q": 5,
+   "distance": "full",
+   "grid": [
+    0.43,
+    0.47
+   ],
+   "rate": 0.45,
+   "omega_1": 0.010596478517292824,
+   "ell": 0.020157303647940814
+  },
+  {
+   "column": "Stern",
+   "q": 7,
+   "distance": "full",
+   "grid": [
+    0.43,
+    0.47
+   ],
+   "rate": 0.452,
+   "omega_1": 0.009766257608251453,
+   "ell": 0.016601462908225662
+  },
+  {
+   "column": "Stern",
+   "q": 8,
+   "distance": "full",
+   "grid": [
+    0.4,
+    0.5
+   ],
+   "rate": 0.452,
+   "omega_1": 0.00933442440928586,
+   "ell": 0.015297048461928352
+  },
+  {
+   "column": "Stern",
+   "q": 11,
+   "distance": "full",
+   "grid": [
+    0.43,
+    0.47
+   ],
+   "rate": 0.454,
+   "omega_1": 0.008205395763869743,
+   "ell": 0.012501624878168338
+  },
+  {
+   "column": "Stern",
+   "q": 16,
+   "distance": "full",
+   "grid": [
+    0.441,
+    0.473
+   ],
+   "rate": 0.455,
+   "omega_1": 0.006805631300986917,
+   "ell": 0.009699501145621438
+  },
+  {
+   "column": "Stern",
+   "q": 27,
+   "distance": "full",
+   "grid": [
+    0.44,
+    0.48
+   ],
+   "rate": 0.458,
+   "omega_1": 0.005001199319856063,
+   "ell": 0.006653781789883446
+  },
+  {
+   "column": "Hirose",
+   "q": 2,
+   "distance": "half",
+   "grid": [
+    0.45,
+    0.482
+   ],
+   "rate": 0.466,
+   "omega_1": 0.00384767332800806,
+   "u": 0.5000007539030524,
+   "h0": 0.398208004297851
+  },
+  {
+   "column": "Hirose",
+   "q": 3,
+   "distance": "half",
+   "grid": [
+    0.458,
+    0.49
+   ],
+   "rate": 0.474,
+   "omega_1": 0.0029801589955108887,
+   "u": 0.17931511918155837,
+   "h0": 0.5356713521805402
+  },
+  {
+   "column": "Hirose",
+   "q": 4,
+   "distance": "half",
+   "grid": [
+    0.464,
+    0.496
+   ],
+   "rate": 0.48,
+   "omega_1": 0.002202261305946972,
+   "u": 0.9067776767970231,
+   "h0": 0.22360035174411944
+  },
+  {
+   "column": "Hirose",
+   "q": 5,
+   "distance": "half",
+   "grid": [
+    0.47,
+    0.502
+   ],
+   "rate": 0.484,
+   "omega_1": 0.0017035673966026748,
+   "u": 0.9407578160046598,
+   "h0": 0.18184863919145264
+  },
+  {
+   "column": "Hirose",
+   "q": 7,
+   "distance": "half",
+   "grid": [
+    0.478,
+    0.51
+   ],
+   "rate": 0.49,
+   "omega_1": 0.001161258993278039,
+   "u": 0.032475393265520264,
+   "h0": 0.4641882123480832
+  },
+  {
+   "column": "Hirose",
+   "q": 8,
+   "distance": "half",
+   "grid": [
+    0.478,
+    0.51
+   ],
+   "rate": 0.494,
+   "omega_1": 0.0010072759685972323,
+   "u": 0.9736331214822784,
+   "h0": 0.1160422470666815
+  },
+  {
+   "column": "Hirose",
+   "q": 11,
+   "distance": "half",
+   "grid": [
+    0.484,
+    0.516
+   ],
+   "rate": 0.498,
+   "omega_1": 0.0007257353768605471,
+   "u": 0.0165979786575316,
+   "h0": 0.4367185815108524
+  },
+  {
+   "column": "Hirose",
+   "q": 16,
+   "distance": "half",
+   "grid": [
+    0.49,
+    0.52
+   ],
+   "rate": 0.504,
+   "omega_1": 0.0005136898366532325,
+   "u": 0.9895544593190152,
+   "h0": 0.05876110138275932
+  },
+  {
+   "column": "Hirose",
+   "q": 27,
+   "distance": "half",
+   "grid": [
+    0.49,
+    0.54
+   ],
+   "rate": 0.512,
+   "omega_1": 0.00033419794806127483,
+   "u": 0.9939419775570131,
+   "h0": 0.03487574820940596
+  }
+ ]
+}
